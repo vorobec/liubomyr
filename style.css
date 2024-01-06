@@ -16,6 +16,12 @@ header{
     height: 40.846px;
     flex-shrink: 0;
 }
+
+
+.img_logo{
+    margin-left: -516px;
+    margin-top: 20px;
+}
 .navigation{
     position: absolute;
     display: flex;
@@ -309,35 +315,46 @@ main{
     font-weight: 600;
     line-height: 36px;
     letter-spacing: -0.5px;
-    margin-top: 300px;
+    margin-top: 400px;
     margin-left: 100px;
 }
 
 .group1{
     width: 21.61px;
-    height: 21.714px; 
+    height: 21.714px;
+    margin-top: -20px;
     margin-left: 1200px;
 }
     
 .group2{
     width: 21.714px;
     height: 21.714px;
+    margin-top: -20px;
     margin-left: 43px;
 }
+
 .group3{
     width: 22px;
     height: 22px;
+    margin-top: -20px;
     margin-left: 43px;
 }
 
 .group4{
     width: 26.71px;
     height: 21.714px;
+    margin-top: -20px;
     margin-left: 43px;
 }
 
 .group5{
     width: 29px;
     height: 18px;
+    margin-top: -20px;
     margin-left: 43px;
+}
+.social{
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: ;
 }
