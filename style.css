@@ -56,6 +56,7 @@ header{
     letter-spacing: -0.5px;
     margin-top: 129px;
     margin-right: 593px;
+    animation:  animation 8s forwards 1;
 }
 .subtext{
     position: absolute;
@@ -75,6 +76,7 @@ header{
     position: absolute;
     margin-top: 129px;
     margin-left: 1000px;
+    animation:  animation 12s forwards 1;
 }
 .main_img2{
     position: absolute;
@@ -124,6 +126,7 @@ main{
     text-decoration: none;
     margin-top: 76px;
     margin-left: -1021px;
+
 }
 
 
@@ -358,3 +361,40 @@ main{
     margin-bottom: 40px;
     margin-top: -30px;
 }
+
+@keyframes animation {
+    0%{
+        transform: rotateY(0) translate(0);
+    }
+    33%{
+        transform: rotateY(2turn) translate(-400px, -100px);
+    }
+    66%{
+        transform: translate(400px,100px);
+        border-radius: 100px;
+    }
+    100%{
+        transform: translate(0);
+        border-radius: 200px;
+    }
+}
+
+
+@keyframes animation1 {
+    0%{
+        transform: rotateY(0) translate(0);
+    }
+    33%{
+        transform: rotateY(2turn) translate(-900px, -100px);
+    }
+    66%{
+        transform: translate(900px,100px);
+        border-radius: 100px;
+    }
+    100%{
+        transform: translate(0);
+        border-radius: 200px;
+    }
+}
+
+
